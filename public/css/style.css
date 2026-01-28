@@ -151,7 +151,7 @@ li {
 
 section > ul {
   background: var(--white);
-  padding: var(--space-md);
+  padding: var(--space-lg);
   border-radius: var(--radius);
   border-inline-start: 4px solid var(--blue);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
