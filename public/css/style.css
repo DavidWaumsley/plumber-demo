@@ -27,11 +27,11 @@ h3 {
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   letter-spacing: .2rem;
   font-weight: 400;
-  text-transform: uppercase;   
+  text-transform: uppercase; 
 }
 li {
   padding-block: .5rem;
-   font-size: clamp(.8rem, 1rem + 1vw, 1.4rem);
+  font-size: clamp(.8rem, 1rem + 1vw, 1.4rem);
   }  
 li::marker {
   color: var(--brand);
@@ -49,9 +49,9 @@ hr{
   height: .2rem;
   background-color: var(--brand);
 }
-/* html {
-  background-color: rgb(237, 232, 214);  
-} */
+html {
+  background-color: var(--brand);  
+}
 body {
   font-size: clamp(.8rem, 1rem + 1vw, 1.6rem);
   background-color: var(--bg);
