@@ -31,9 +31,9 @@
   --radius: 0.375rem;
 }
 html{
-
   font-size: 1.2rem
 }
+
 /* Base Typography */
 body {
   font-family: var(--font-body);
@@ -113,7 +113,7 @@ main {
 }
 
 section {
-  margin-block-end: var(--space-xl);
+  margin-block-end: var(--space-md);
 }
 
 /* Images */
