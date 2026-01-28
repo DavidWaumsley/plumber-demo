@@ -30,7 +30,10 @@
   --content-width: 70ch;
   --radius: 0.375rem;
 }
+html{
 
+  font-size: 1.2rem
+}
 /* Base Typography */
 body {
   font-family: var(--font-body);
