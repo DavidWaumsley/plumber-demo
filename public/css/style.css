@@ -237,14 +237,13 @@ footer {
 
 
 /* Responsive Enhancements */
-@media (width < 45rem) {
+@media (width < 67rem) {
   header ul {
-    gap: var(--space-md);
+    gap: var(--space-sm);
+     justify-self: center;
   }
 
-  header{
-    justify-content: center;
-  }  
+  
 
    header img{
     justify-self: center;
