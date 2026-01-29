@@ -1,10 +1,8 @@
-# Notes
+# Basic HTML site
 
-## HTML 
+## HTML Snippets
 
-Use of semantic tags help with acessibility, SEO (machine learning), performance and collaboration.
-
-Some research suggests over 92.8% of websites rely heavily on non-semantic, ```<div>```-based layouts. "Bloat-heavy" builders such as Wix, Squarespace, Elementor and Divi prioritize ease of use resulting in the extreme nesting of non-semantic tags.
+Semantic tags help with acessibility, SEO (machine learning), performance and collaboration.
 
 <details name="html">
 <summary>Common Structure</summary>
@@ -48,7 +46,6 @@ Some research suggests over 92.8% of websites rely heavily on non-semantic, ```<
 </details>
 
 
-
 <details name="html">
 <summary>Head Section</summary>
 
@@ -70,3 +67,39 @@ Use this [Favicon Generator](https://realfavicongenerator.net/).
 
 
 </details>
+
+<details name="html">
+<summary>Most used tags</summary>
+
+
+```htm
+<!-- Heading h1 - h6 -->
+
+<h1>Main heading - only use one per page</h1>
+<h2>Next level heading. Never skip a level</h2>
+
+
+<!-- Text -->
+
+<p>This is my paragraph text.</p>
+<p>My text with a <strong>bolded</strong> word and an <em> italic</em> word.</p>
+<small>My small text.</small>
+
+
+<!-- Image (remove loading='lazy' if the image is the viewport when on load) -->
+
+<img src="/image" loading="lazy" alt="describe the image" width="300"height="150">
+
+
+<!-- Links -->
+
+<a href="https://another-website.com">Another website </a>
+<a href="/about">My about page</a>
+
+```
+
+**Notes:** 
+</details>
+
+## Resources:
+
