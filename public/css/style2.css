@@ -75,9 +75,9 @@ header {
 }
 
 header img {
-  max-width: min(230px, 100%);
+  max-width: min(280px, 100%);
   height: auto;
-  filter: brightness(0)  invert(100%);  
+  filter: brightness(0) invert(100%);  
 }
 
 header ul {
