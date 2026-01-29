@@ -1,18 +1,30 @@
-html {font-size: 1.5rem}
+html {
+  font-size: 1.5rem
+}
+
 body {
   font-family: system-ui, sans-serif;
   line-height: 1.6;
   margin-inline: auto;
   width: min(80ch, 100% - 2rem);
 }
-img {max-width: 100%; height: auto;}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 details {
   margin-block: 1rem;
+
   & summary {
     cursor: pointer;
   }
 }
-footer { text-align: center;}
+
+footer {
+  text-align: center;
+}
 
 /*Extras*/
 
@@ -28,7 +40,6 @@ footer { text-align: center;}
 header {
   position: sticky;
   top: 0;
-  z-index: 10;   
   padding-block: 1rem;
   justify-items: center; 
   & ul {
