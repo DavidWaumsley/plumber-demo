@@ -3,8 +3,7 @@
 /* Raw, bold, unapologetic design */
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&family=Courier+Prime:wght@400;700&display=swap');
 
-:root {
-  color-scheme: light dark;
+:root {  
   
   /* Brutalist color palette - high contrast */
   --black: #000000;
@@ -96,8 +95,6 @@ h2 {
 
 /* Header - industrial stack */
 header {
-  position: sticky;
-  top: 0;
   background: var(--black);
   color: var(--white);
   padding: var(--gap);
@@ -108,11 +105,10 @@ header {
   z-index: 100;
   
   & img {
-    max-width: min(250px, 100%);
+    max-width: min(280px, 100%);
     height: auto;
-    filter: invert(1) contrast(2);
-    mix-blend-mode: difference;
-  }
+    filter: invert(1) brightness(200%) contrast(103%);
+      }
   
   & ul {
     display: flex;
@@ -147,32 +143,6 @@ header {
   }
 }
 
-/* Scroll-driven header shrink */
-@supports (animation-timeline: scroll()) {
-  @keyframes shrink-header-brutal {
-    to {
-      padding-block: calc(var(--gap) / 2);
-    }
-  }
-  
-  @keyframes shrink-logo-brutal {
-    to {
-      max-width: min(150px, 100%);
-    }
-  }
-  
-  header {
-    animation: shrink-header-brutal linear;
-    animation-timeline: scroll();
-    animation-range: 0 100px;
-  }
-  
-  header img {
-    animation: shrink-logo-brutal linear;
-    animation-timeline: scroll();
-    animation-range: 0 100px;
-  }
-}
 
 /* Main content - constrained chaos */
 main {
