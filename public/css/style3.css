@@ -139,7 +139,7 @@ header {
     transition: all 0.1s ease;
     
     &:hover, &:focus-visible {
-      background: var(--red);
+      background-color: var(--red);
       color: var(--white);
       transform: translate(-3px, -3px);
       box-shadow: 3px 3px 0 var(--black);
@@ -321,6 +321,7 @@ details p {
 /* Video - contained */
 iframe {
   width: 100%;
+  height: auto;
   aspect-ratio: 16 / 9;
   border: calc(var(--unit) / 2) solid var(--black);
   margin-block: var(--gap);

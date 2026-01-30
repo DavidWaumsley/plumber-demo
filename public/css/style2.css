@@ -210,6 +210,7 @@ details p {
 /* Video */
 iframe {
   width: 100%;
+  height: auto;
   aspect-ratio: 16 / 9;
   border: none;
   border-radius: var(--radius);
@@ -245,9 +246,7 @@ footer {
     gap: var(--space-sm);
      justify-self: center;
   }
-
-  
-
+ 
    header img{
     justify-self: center;
   }  
