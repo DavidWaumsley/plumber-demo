@@ -33,7 +33,7 @@
 
 html {
   font-family: var(--font-sans);
-  font-size: 100%;
+  font-size: 110%;
   scroll-behavior: smooth;
 }
 
@@ -385,8 +385,6 @@ main a:focus-visible {
     padding-inline: 1rem;
   }
 }
-
-
 
 /* Reduce header “stickiness” on very tall desktops if you prefer */
 @media (min-width: 1200px) {
