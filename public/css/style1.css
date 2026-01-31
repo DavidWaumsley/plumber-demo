@@ -136,10 +136,7 @@ header li:first-child a {
   border-color: transparent;
 }
 
-header li:first-child a::before {
-  content: "Call ";
-  font-weight: 600;
-}
+
 
 /* Secondary CTA buttons */
 header li:nth-child(2) a {
