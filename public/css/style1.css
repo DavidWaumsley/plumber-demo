@@ -186,8 +186,8 @@ main > section:first-of-type {
 
 main > section:first-of-type img {
   border-radius: 16px;
-  width: 100%;
-  height: auto;
+  inline-size: 100%;
+  block-size: auto;
   object-fit: cover;
   border: 1px solid rgba(148, 163, 184, 0.35);
 }
@@ -273,11 +273,13 @@ img {
 }
 
 iframe {
-  width: 100%;
+  inline-size: 100%;
+  block-size:auto;
   max-width: 100%;
   border-radius: 16px;
   border: 0;
   aspect-ratio: 16 / 9;
+  margin: 1rem;
 }
 
 /* =========
