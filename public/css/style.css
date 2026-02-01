@@ -1,5 +1,5 @@
 html {
-  font-size: 1.4rem
+  font-size: 1.3rem
 }
 
 body {
@@ -14,12 +14,17 @@ header {
   display: block;
   justify-self: center;
   list-style: none;
+  
 }
 
 img {
   max-width: 100%;
   height: auto;
+  display: block;
+  justify-self: center;
 }
+
+
 
 details {
   margin-block: 1rem;

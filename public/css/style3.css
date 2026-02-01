@@ -168,6 +168,11 @@ section {
   }
 }
 
+main > section:nth-child(3) img { 
+  justify-self: center;
+  border: 0;
+}
+
 /* Images - hard edges */
 img {
   max-width: 100%;

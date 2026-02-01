@@ -116,6 +116,9 @@ section {
   margin-block-end: var(--space-md);
 }
 
+main > section:nth-child(3) img { 
+  justify-self: center;
+}
 /* Images */
 img {
   max-width: 100%;

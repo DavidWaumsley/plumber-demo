@@ -192,6 +192,11 @@ main > section:first-of-type img {
   border: 1px solid rgba(148, 163, 184, 0.35);
 }
 
+main > section:nth-child(3) img { 
+  justify-self: center;
+}
+
+
 /* =========
    Typography
    ========= */
@@ -237,7 +242,7 @@ small {
 main ul {
   padding-left: 1.1rem;
   margin-top: 0.5rem;
-  margin-bottom: 0.75rem;
+  margin-bottom: 1.1rem;
   display: grid;
   gap: 0.3rem;
   font-size: var(--step-0);

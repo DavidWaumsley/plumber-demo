@@ -139,6 +139,11 @@ section {
   padding: 0.9rem 0.9rem 1.1rem;
 }
 
+main > section:nth-child(3) img { 
+  justify-self: center;
+  border: 0;
+}
+
 /* “Column” feel on wider screens */
 @media (min-width: 820px) {
   main {
