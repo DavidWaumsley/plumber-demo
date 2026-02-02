@@ -10,7 +10,7 @@
   --color-accent: #d3420d;
   --color-accent-soft: rgba(13, 110, 253, 0.08);
   --color-text: #111827;
-  --color-text-muted: #4b5563;
+  --color-text-muted: #2f363f;
   --color-border: #e5e7eb;
   --shadow-soft: 0 18px 45px rgba(15, 23, 42, 0.12);
   --radius-lg: 18px;
@@ -136,6 +136,7 @@ header li:first-child a {
   border-color: transparent;
 }
 
+
 /* Secondary CTA buttons */
 header li:nth-child(2) a {
   background-color: var(--color-accent-soft);
@@ -193,7 +194,6 @@ main > section:first-of-type img {
 main > section:nth-child(3) img { 
   justify-self: center;
 }
-
 
 /* =========
    Typography
@@ -273,7 +273,7 @@ img {
 iframe {
   inline-size: 100%;
   block-size:auto;
-  max-width: 100%;
+  max-width: 95%;
   border-radius: 16px;
   border: 0;
   aspect-ratio: 16 / 9;
@@ -310,7 +310,7 @@ summary::-webkit-details-marker {
 summary::before {
   content: "▸";
   display: inline-block;
-  font-size: 0.85em;
+  font-size: 1.25em;
   color: var(--color-accent);
   transform-origin: center;
   transition: transform 150ms ease;
