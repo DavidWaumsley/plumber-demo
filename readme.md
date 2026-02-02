@@ -110,6 +110,6 @@ Use this [Favicon Generator](https://realfavicongenerator.net/).
 
 ## Learning Resources:
 
-- [Learn HTML – Full Tutorial for Beginners - Video](https://www.youtube.com/watch?v=kUMe1FH4CHE)
+- [Learn HTML – Full Tutorial for Beginners - video](https://www.youtube.com/watch?v=kUMe1FH4CHE)
 - [HTML for people](https://htmlforpeople.com/)
 - [Learn HTML - web.dev](https://web.dev/learn/html)
