@@ -1,5 +1,7 @@
 # Basic HTML site
 
+This demo site was used on [The No Script Show](https://noscript.show/28/)
+
 ## HTML Snippets
 
 Semantic tags help with acessibility, SEO (machine learning), performance and collaboration.
@@ -53,12 +55,17 @@ Semantic tags help with acessibility, SEO (machine learning), performance and co
 
 <head>
     
-    <meta charset="UTF-8">     
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">     
-    <title>Company Name - we do this Max 65 charactors</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <meta name="description" content="This is has no SEO value but can be shown in search listing. Treat as sales copy.">
-        
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Important for SEO up to 65 charactors</title>
+    <link rel="stylesheet" href="public/css/style1.css">
+    <link rel="icon" href="image/favicon.ico" sizes="any">
+    <link rel="icon" type="image/x-icon" href="public/svg/favicon.svg">
+    <meta name="description" content="Treat ike sales copy. Up to 170 charactors">
+    <meta property="og:image" content="/public/img/og-image.webp">
+    <meta property="twitter:image" content="/public/img/og-image.webp">
+
+</head>
 </head>
 ```
 **Notes:** 
@@ -101,5 +108,8 @@ Use this [Favicon Generator](https://realfavicongenerator.net/).
 **Notes:** 
 </details>
 
-## Resources:
+## Learning Resources:
 
+- [Learn HTML – Full Tutorial for Beginners - Video](https://www.youtube.com/watch?v=kUMe1FH4CHE)
+- [HTML for people](https://htmlforpeople.com/)
+- [Learn HTML - web.dev](https://web.dev/learn/html)
