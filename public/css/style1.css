@@ -136,8 +136,6 @@ header li:first-child a {
   border-color: transparent;
 }
 
-
-
 /* Secondary CTA buttons */
 header li:nth-child(2) a {
   background-color: var(--color-accent-soft);
