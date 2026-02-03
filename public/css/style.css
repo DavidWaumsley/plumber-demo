@@ -1,30 +1,28 @@
 html {
-  font-size: 1.3rem
+  font-size: 125%;
 }
 
 body {
-  font-family: system-ui, sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   line-height: 1.6;
   margin-inline: auto;
-  inline-size: min(80ch, 100% - 2rem);
-  background-color: #e1e3e4;
+  inline-size: min(75ch, 100% - 2rem);
+  background-color: #e0e9ec;
 }
 
 header {
-  display: block;
+  display: grid;
   justify-self: center;
-  list-style: none;
-  
+}
+
+a {
+  color: #2f054b;
 }
 
 img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  justify-self: center;
+  max-inline-size: 100%;
+  block-size: auto;
 }
-
-
 
 details {
   margin-block: 1rem;
@@ -34,12 +32,15 @@ details {
   }
 }
 
-footer {
-  text-align: center;
-}
 
-/* EXTRAS */
-:root {
+
+
+
+/* footer {
+  text-align: center;
+} */
+
+/* :root {
   color-scheme: dark light;
 }
 
@@ -74,4 +75,4 @@ iframe {
   block-size: auto; 
   max-width: 100%;
   aspect-ratio: 16 / 9;
-}
+} */
